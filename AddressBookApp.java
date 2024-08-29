@@ -1,5 +1,5 @@
 import java.util.Scanner;
-interface AddressBookOperations {
+interface AddressBookOperations{
     void addContact(Contact contact);
     void viewContacts();
     Contact searchContact(String name);
